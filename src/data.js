@@ -6,31 +6,31 @@ let invoices = [
       due: "12/05/1995"
     },
     {
-      name: "Stankonia",
+      name: "Servicios Especiales",
       number: 2000,
       amount: "$8,000",
       due: "10/31/2000"
     },
     {
-      name: "Ocean Avenue",
+      name: "Galerías Pacífico",
       number: 2003,
       amount: "$9,500",
       due: "07/22/2003"
     },
     {
-      name: "Tubthumper",
+      name: "Galaga Inc",
       number: 1997,
       amount: "$14,000",
       due: "09/01/1997"
     },
     {
-      name: "Wide Open Spaces",
+      name: "Rampoldi Muebles",
       number: 1998,
       amount: "$4,600",
       due: "01/27/2998"
     },
     {
-        name: "Vinoteca Garganta de Lata",
+        name: "Vinos Garganta de Lata",
         number: 1200,
         amount: "$41,000",
         due: "15/03/2019"
@@ -42,7 +42,7 @@ let invoices = [
         due: "09/07/2003"
       },
       {
-        name: "Mi Gordo Bello Spa",
+        name: "Hangar del Cielo",
         number: 2020,
         amount: "$9,600",
         due: "09/23/2098"
