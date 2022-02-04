@@ -5,6 +5,9 @@ import App from './App'
 import Expenses from './routes/expenses';
 import Invoices from './routes/invoices';
 import Invoice from './routes/invoice'
+import Protected from './routes/Protected'
+import ProtectedRoute from './routes/auth/ProtectedRoute';
+import SignIn from './routes/SignIn'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +20,10 @@ ReactDOM.render(
           <Route index path=':invoiceId' element={<Invoice/>}/>
           </Route>
         <Route path='expenses' element={<Expenses />} />
+        <Route element={<ProtectedRoute/>}>
+        <Route path='protected' element={<Protected/>} />
+        </Route>
+        <Route path='signin' element={<SignIn/>}/>
         <Route path='*' element={<main style={{ padding: "1rem" }}> <p>Not Found 👮‍♀️</p> </main>}/>
         </Route>
       </Routes>
