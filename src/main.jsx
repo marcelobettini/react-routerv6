@@ -1,4 +1,5 @@
 import React from 'react';
+import { createRoot } from 'react-dom/client';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App';
@@ -8,8 +9,8 @@ import Invoice from './routes/invoice';
 import Protected from './routes/Protected';
 import ProtectedRoute from './routes/auth/ProtectedRoute';
 import SignIn from './routes/SignIn';
-
-ReactDOM.render(
+const root = document.getElementById('root');
+createRoot(root).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
