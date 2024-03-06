@@ -1,0 +1,36 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+window.__remixManifest={"version":"cdd69c9f","entry":{"module":"/build/entry.client-ZCGCNWZY.js","imports":["/build/_shared/chunk-XKL5ILWI.js","/build/_shared/chunk-V2DFFDY4.js"]},"routes":{"root":{"id":"root","path":"","module":"/build/root-LWFYSHGS.js","imports":["/build/_shared/chunk-4G7KL4D2.js","/build/_shared/chunk-U3IYKWH3.js","/build/_shared/chunk-KQEE3I77.js","/build/_shared/chunk-6UEFI74U.js"],"hasAction":false,"hasLoader":true,"hasCatchBoundary":true,"hasErrorBoundary":true},"routes/$":{"id":"routes/$","parentId":"root","path":"*","module":"/build/routes/$-ECUUS3IS.js","hasAction":false,"hasLoader":true,"hasCatchBoundary":false,"hasErrorBoundary":false},"routes/_refresh":{"id":"routes/_refresh","parentId":"root","path":"_refresh","module":"/build/routes/_refresh-T2DXV744.js","hasAction":true,"hasLoader":false,"hasCatchBoundary":false,"hasErrorBoundary":false},"routes/_refreshlocal":{"id":"routes/_refreshlocal","parentId":"root","path":"_refreshlocal","module":"/build/routes/_refreshlocal-NX3SN2JK.js","hasAction":true,"hasLoader":false,"hasCatchBoundary":false,"hasErrorBoundary":false},"routes/_refs":{"id":"routes/_refs","parentId":"root","path":"_refs","module":"/build/routes/_refs-QMY4HIAO.js","imports":["/build/_shared/chunk-O2GSKMKH.js"],"hasAction":false,"hasLoader":true,"hasCatchBoundary":false,"hasErrorBoundary":false},"routes/docs/$lang":{"id":"routes/docs/$lang","parentId":"root","path":"docs/:lang","module":"/build/routes/docs/$lang-FPAVLD3T.js","hasAction":false,"hasLoader":true,"hasCatchBoundary":false,"hasErrorBoundary":false},"routes/docs/$lang.$version":{"id":"routes/docs/$lang.$version","parentId":"root","path":"docs/:lang/:version","module":"/build/routes/docs/$lang.$version-OEDPFOQX.js","imports":["/build/_shared/chunk-LQEEYLPG.js"],"hasAction":false,"hasLoader":true,"hasCatchBoundary":false,"hasErrorBoundary":false},"routes/docs/$lang.$version/$":{"id":"routes/docs/$lang.$version/$","parentId":"routes/docs/$lang.$version","path":"*","module":"/build/routes/docs/$lang.$version/$-LVUTI3NM.js","imports":["/build/_shared/chunk-HNRH5D6R.js","/build/_shared/chunk-6UEFI74U.js"],"hasAction":false,"hasLoader":true,"hasCatchBoundary":false,"hasErrorBoundary":false},"routes/docs/$lang.$version/index":{"id":"routes/docs/$lang.$version/index","parentId":"routes/docs/$lang.$version","index":true,"module":"/build/routes/docs/$lang.$version/index-4H6BUM3D.js","imports":["/build/_shared/chunk-HNRH5D6R.js","/build/_shared/chunk-6UEFI74U.js"],"hasAction":false,"hasLoader":true,"hasCatchBoundary":false,"hasErrorBoundary":false},"routes/docs/index":{"id":"routes/docs/index","parentId":"root","path":"docs","index":true,"module":"/build/routes/docs/index-FCHBCQWX.js","imports":["/build/_shared/chunk-O2GSKMKH.js","/build/_shared/chunk-LQEEYLPG.js"],"hasAction":false,"hasLoader":true,"hasCatchBoundary":false,"hasErrorBoundary":false},"routes/index":{"id":"routes/index","parentId":"root","index":true,"module":"/build/routes/index-4DTGQQOP.js","imports":["/build/_shared/chunk-YUTMYBDC.js"],"hasAction":true,"hasLoader":true,"hasCatchBoundary":false,"hasErrorBoundary":false},"routes/resources":{"id":"routes/resources","parentId":"root","path":"resources","module":"/build/routes/resources-Q7LAZ6RX.js","imports":["/build/_shared/chunk-YUTMYBDC.js"],"hasAction":true,"hasLoader":false,"hasCatchBoundary":false,"hasErrorBoundary":false}},"url":"/build/manifest-CDD69C9F.js"};
+
+}
+/*
+     FILE ARCHIVED ON 17:43:19 Jul 13, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:44:12 Nov 22, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 4133.787
+  exclusion.robots: 0.073
+  exclusion.robots.policy: 0.066
+  cdx.remote: 0.06
+  esindex: 0.008
+  LoadShardBlock: 36.25 (3)
+  PetaboxLoader3.datanode: 66.525 (5)
+  CDXLines.iter: 23.89 (3)
+  load_resource: 152.734 (2)
+  PetaboxLoader3.resolve: 77.134 (2)
+*/
